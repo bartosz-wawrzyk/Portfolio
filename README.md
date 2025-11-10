@@ -5,9 +5,6 @@
 Personal portfolio website built with **React (JSX)** and **Vite**, deployed on **GitHub Pages**.  
 Showcasing my skills, experience, and selected projects as a full-stack developer.
 
-![Portfolio Screenshot - Homepage](./assets/screenshot-homepage.png)  
-*(📸 Replace this with a screenshot of your homepage — ideally showing your intro and navigation bar.)*
-
 ---
 
 ## 📋 Table of Contents
@@ -49,15 +46,6 @@ This website is deployed using **GitHub Pages**.
 🔗 Live version: [https://username.github.io/](https://username.github.io/)
 
 *(📝 Replace the link above with your real portfolio link once it’s published.)*
-
----
-
-## 📸 Screenshots
-![Portfolio Screenshot - Skills Section](./assets/screenshot-skills.png)  
-*(📸 Screenshot showing your “Skills” section — ideally a clean, readable list of tech skills.)*
-
-![Portfolio Screenshot - Projects Section](./assets/screenshot-projects.png)  
-*(📸 Screenshot showing your “Projects” section — with a few project cards or links visible.)*
 
 ---
 
