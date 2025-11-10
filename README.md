@@ -8,13 +8,12 @@ Showcasing my skills, experience, and selected projects as a full-stack develope
 ---
 
 ## 📋 Table of Contents
-- [About the Project](#about-the-project)
-- [Built With](#built-with)
-- [Sections](#sections)
-- [Deployment](#deployment)
-- [Screenshots](#screenshots)
-- [Contact](#contact)
-- [License](#license)
+- [About the Project]
+- [Built With]
+- [Sections]
+- [Deployment]
+- [Contact]
+- [License]
 
 ---
 
