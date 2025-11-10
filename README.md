@@ -8,12 +8,12 @@ Showcasing my skills, experience, and selected projects as a full-stack develope
 ---
 
 ## 📋 Table of Contents
-- [About the Project]
-- [Built With]
-- [Sections]
-- [Deployment]
-- [Contact]
-- [License]
+- About the Project
+- Built With
+- Sections
+- Deployment
+- Contact
+- License
 
 ---
 
@@ -50,7 +50,7 @@ This website is deployed using **GitHub Pages**.
 
 ## 📬 Contact
 - 💌 Email: [bartoszwawrzyk888@gmail.com]  
-- 💼 LinkedIn: [Your LinkedIn link]  
+- 💼 LinkedIn: [[Linkedin](https://www.linkedin.com/in/bartosz-wawrzyk-92498a260/)]  
 - 🐙 GitHub: [https://github.com/bartosz-wawrzyk](https://github.com/bartosz-wawrzyk)
 
 ---
