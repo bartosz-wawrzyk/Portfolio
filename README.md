@@ -43,7 +43,7 @@ It presents my professional background, technical skills, and selected projects 
 
 ## 🚀 Deployment
 This website is deployed using **GitHub Pages**.  
-🔗 Live version: [https://username.github.io/](https://username.github.io/)
+🔗 Live version: [https://bartosz-wawrzyk.github.io/Portfolio/]
 
 *(📝 Replace the link above with your real portfolio link once it’s published.)*
 
