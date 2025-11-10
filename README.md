@@ -44,8 +44,6 @@ It presents my professional background, technical skills, and selected projects 
 This website is deployed using **GitHub Pages**.  
 🔗 Live version: [https://bartosz-wawrzyk.github.io/Portfolio/]
 
-*(📝 Replace the link above with your real portfolio link once it’s published.)*
-
 ---
 
 ## 📬 Contact
