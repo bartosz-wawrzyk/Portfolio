@@ -5,19 +5,15 @@
 Osobiste portfolio stworzone w **React (JSX)** i **Vite**, hostowane na **GitHub Pages**.  
 Prezentuje moje umiejętności, doświadczenie zawodowe oraz wybrane projekty jako **full-stack developer**.
 
-![Zrzut ekranu – Strona główna](./assets/screenshot-homepage.png)  
-*(📸 Tutaj wstaw zrzut ekranu strony głównej — najlepiej z sekcją „O mnie” i menu nawigacyjnym.)*
-
 ---
 
 ## 📋 Spis treści
-- [O projekcie](#o-projekcie)
-- [Technologie](#technologie)
-- [Sekcje portfolio](#sekcje-portfolio)
-- [Wdrożenie](#wdrożenie)
-- [Zrzuty ekranu](#zrzuty-ekranu)
-- [Kontakt](#kontakt)
-- [Licencja](#licencja)
+- O projekcie
+- Technologie
+- Sekcje portfolio
+- Wdrożenie
+- Kontakt
+- Licencja
 
 ---
 
@@ -46,24 +42,13 @@ Strona przedstawia mój profil zawodowy, umiejętności techniczne oraz wybrane 
 
 ## 🚀 Wdrożenie
 Strona została wdrożona z wykorzystaniem **GitHub Pages**.  
-🔗 Wersja online: [https://username.github.io/](https://username.github.io/)
-
-*(📝 Po publikacji zastąp powyższy link prawdziwym adresem swojego portfolio.)*
-
----
-
-## 📸 Zrzuty ekranu
-![Zrzut ekranu – sekcja umiejętności](./assets/screenshot-skills.png)  
-*(📸 Wstaw zrzut sekcji „Umiejętności” — lista technologii, ikony, itp.)*
-
-![Zrzut ekranu – sekcja projektów](./assets/screenshot-projects.png)  
-*(📸 Wstaw zrzut sekcji „Projekty” — np. kilka kafelków z projektami lub linki do repozytoriów.)*
+🔗 Wersja online: [https://bartosz-wawrzyk.github.io/Portfolio/](https://bartosz-wawrzyk.github.io/Portfolio/)
 
 ---
 
 ## 📬 Kontakt
 - 💌 E-mail: [bartoszwawrzyk888@gmail.com]  
-- 💼 LinkedIn: [Twój link do profilu LinkedIn]  
+- 💼 LinkedIn: [Linkedin](https://www.linkedin.com/in/bartosz-wawrzyk-92498a260/)  
 - 🐙 GitHub: [https://github.com/bartosz-wawrzyk](https://github.com/bartosz-wawrzyk)
 
 ---
