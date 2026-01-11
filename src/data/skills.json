@@ -1,0 +1,42 @@
+{
+  "EN": {
+    "title": "Technical Skills",
+    "skills": [
+      { "name": "MS SQL", "level": 80, "description": "Good knowledge - working with databases in professional projects" },
+      { "name": "PostgreSQL", "level": 75, "description": "Good knowledge - used in data-related projects" },
+      { "name": "Python / FastAPI", "level": 50, "description": "Currently learning Python and FastAPI for backend development" },
+      { "name": "HTML/CSS", "level": 70, "description": "Intermediate knowledge - creating user interfaces" },
+      { "name": "JavaScript", "level": 60, "description": "Basic-intermediate knowledge - in development" },
+      { "name": "React", "level": 45, "description": "Basic knowledge - currently learning" },
+      { "name": "Node.js", "level": 40, "description": "Basic knowledge - in the learning process" },
+      { "name": "Git", "level": 65, "description": "Intermediate knowledge - working with version control" },
+      { "name": "Pascal/C++", "level": 70, "description": "Intermediate knowledge - used in internal tools" }
+    ],
+    "traits": ["analytical thinking", "teamwork skills", "hard work", "responsibility", "good time management", "fast learning", "openness to changes"],
+    "languages": [
+      {"language": "English", "level": "Intermediate"},
+      {"language": "Polish", "level": "Native"}
+    ],
+    "interests": ["programming", "IT", "electronics", "individual sports", "team sports", "computer games", "new technologies"]
+  },
+  "PL": {
+    "title": "Umiejętności Techniczne",
+    "skills": [
+      { "name": "MS SQL", "level": 80, "description": "Dobra znajomość - praca z bazami danych w projektach zawodowych" },
+      { "name": "PostgreSQL", "level": 75, "description": "Dobra znajomość - wykorzystywany w projektach związanymi z danymi" },
+      { "name": "Python / FastAPI", "level": 50, "description": "W trakcie nauki Pythona i FastAPI do tworzenia backendu" },
+      { "name": "HTML/CSS", "level": 70, "description": "Średnia znajomość - tworzenie interfejsów użytkownika" },
+      { "name": "JavaScript", "level": 60, "description": "Podstawowo-średnia znajomość - w trakcie rozwoju" },
+      { "name": "React", "level": 45, "description": "Podstawowa znajomość - aktualnie się uczę" },
+      { "name": "Node.js", "level": 40, "description": "Podstawowa znajomość - w trakcie nauki" },
+      { "name": "Git", "level": 65, "description": "Średnia znajomość - praca z kontrolą wersji" },
+      { "name": "Pascal/C++", "level": 70, "description": "Średnia znajomość - wykorzystywane w narzędziach wewnętrznych" }
+    ],
+    "traits": ["myślenie analityczne", "umiejętność współpracy", "pracowitość", "odpowiedzialność", "dobre zarządzanie czasem", "łatwość uczenia się", "otwartość na zmiany"],
+    "languages": [
+      {"language": "Angielski", "level": "średnio zaawansowany"},
+      {"language": "Polski", "level": "ojczysty"}
+    ],
+    "interests": ["programowanie", "informatyka", "elektronika", "sporty indywidualne", "sporty drużynowe", "gry komputerowe", "nowe technologie"]
+  }
+}

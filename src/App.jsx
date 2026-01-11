@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 import "./styles/App.css";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
@@ -6,18 +6,22 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
+export const LanguageContext = createContext();
+
+export const useLanguage = () => useContext(LanguageContext);
+
 const App = () => {
-  const [language, setLanguage] = useState("PL");
+  const [language, setLanguage] = useState("EN");
   const [activeMenu, setActiveMenu] = useState("about");
 
-  const toggleLanguage = () => setLanguage(language === "PL" ? "EN" : "PL");
+  const toggleLanguage = () => setLanguage(language === "EN" ? "PL" : "EN");
 
   const translations = {
     PL: {
       menu: {
         about: "O mnie",
-        skills: "Umiejętności",
         experience: "Doświadczenie",
+        skills: "Umiejętności",
         projects: "Projekty",
         contact: "Kontakt"
       },
@@ -27,8 +31,8 @@ const App = () => {
     EN: {
       menu: {
         about: "About Me",
-        skills: "Skills",
         experience: "Experience",
+        skills: "Skills",
         projects: "Projects",
         contact: "Contact"
       },
@@ -41,8 +45,8 @@ const App = () => {
 
   const menuItems = [
     { key: "about", value: t.menu.about },
-    { key: "skills", value: t.menu.skills },
     { key: "experience", value: t.menu.experience },
+    { key: "skills", value: t.menu.skills },
     { key: "projects", value: t.menu.projects },
     { key: "contact", value: t.menu.contact }
   ];
@@ -50,53 +54,52 @@ const App = () => {
   const renderContent = () => {
     switch (activeMenu) {
       case "about":
-        return <Home language={language} />;
-      case "skills":
-        return <Skills language={language} />;
+        return <Home />;
       case "experience":
-        return <Experience language={language} />;
+        return <Experience />;
+      case "skills":
+        return <Skills />;
       case "projects":
-        return <Projects language={language} />;
+        return <Projects />;
       case "contact":
-        return <Contact language={language} />;
+        return <Contact />;
       default:
-        return <Home language={language} />;
+        return <Home />;
     }
   };
 
   return (
-    <div className={`app`}>
-      <nav className="navbar">
-        <div className="navbar-left">
-          <h2>{t.portfolio}</h2>
-        </div>
-        <div className="navbar-center">
-          {menuItems.map((item) => (
-            <button
-              key={item.key}
-              className={`nav-item ${activeMenu === item.key ? "active" : ""}`}
-              onClick={() => setActiveMenu(item.key)}
-            >
-              {item.value}
+    <LanguageContext.Provider value={{ language, toggleLanguage }}>
+      <div className={`app`}>
+        <nav className="navbar">
+          <div className="navbar-left">
+            <h2>{t.portfolio}</h2>
+          </div>
+          <div className="navbar-center">
+            {menuItems.map((item) => (
+              <button
+                key={item.key}
+                className={`nav-item ${activeMenu === item.key ? "active" : ""}`}
+                onClick={() => setActiveMenu(item.key)}
+              >
+                {item.value}
+              </button>
+            ))}
+          </div>
+          <div className="navbar-right">
+            <button onClick={toggleLanguage} className="lang-btn">
+              {language}
             </button>
-          ))}
-        </div>
-        <div className="navbar-right">
+          </div>
+        </nav>
 
-          <button onClick={toggleLanguage} className="lang-btn">
-            {language}
-          </button>
-        </div>
-      </nav>
+        <main className="content">{renderContent()}</main>
 
-      <main className="content">
-        {renderContent()}
-      </main>
-
-      <footer className="footer">
-        <p>{t.footer.replace("{year}", new Date().getFullYear())}</p>
-      </footer>
-    </div>
+        <footer className="footer">
+          <p>{t.footer.replace("{year}", new Date().getFullYear())}</p>
+        </footer>
+      </div>
+    </LanguageContext.Provider>
   );
 };
 

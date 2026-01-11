@@ -1,0 +1,53 @@
+[
+  {
+    "name": { "PL": "Domator - System do zarządzania sprawami domowymi", "EN": "Domator - Home management system" },
+    "description": { 
+      "PL": "Domator to aplikacja do zarządzania gospodarstwem domowym. Umożliwia organizację zadań, zarządzanie użytkownikami i dostęp do danych poprzez nowoczesny interfejs React oraz backend FastAPI.",
+      "EN": "Domator is a household management application. It enables task organization, user management, and data access through a modern React frontend and FastAPI backend."
+    },
+    "status": "inProgress",
+    "technologies": ["React", "FastAPI", "Docker", "Python", "PostgreSQL"],
+    "github": "https://github.com/bartosz-wawrzyk/Domator",
+    "screenshot": "",
+    "date": null
+  },
+  {
+    "name": { "PL": "Aplikacja do zarządzania budżetem domowym", "EN": "Home Budget Management Application" },
+    "description": { "PL": "Aplikacja do zarządzania finansami domowymi.", "EN": "Application for managing home finances." },
+    "status": "completed",
+    "technologies": ["JavaFX", "PostgreSQL"],
+    "github": "https://github.com/bartosz-wawrzyk/BudgetApp",
+    "screenshot": "",
+    "date": "2025-04-29"
+  },
+  {
+    "name": { "PL": "Aplikacja do zarządzania gospodarstwem domowym", "EN": "Home Management Application" },
+    "description": { "PL": "Projekt inżynierski – narzędzie do zarządzania gospodarstwem domowym.", "EN": "Engineering project – a complete tool for home management." },
+    "status": "completed",
+    "technologies": ["JavaFX", "PostgreSQL"],
+    "github": "https://github.com/bartosz-wawrzyk/FarmManagementSystem",
+    "screenshot": "",
+    "date": "2023-04-03"
+  },
+  {
+    "name": { "PL": "Praca magisterska – analiza danych", "EN": "Master's Thesis – Data Analysis" },
+    "description": { 
+      "PL": "Analiza i porównanie efektywności algorytmów detekcji obiektów: YOLO, SSD, R-CNN. Ocena dokładności mAP, czasu przetwarzania i efektywności w różnych warunkach.",
+      "EN": "Analysis and comparison of object detection algorithms: YOLO, SSD, R-CNN. Evaluation of mAP accuracy, processing time, and efficiency in different conditions."
+    },
+    "status": "completed",
+    "technologies": ["Python", "Jupyter Notebook", "Pandas", "Matplotlib"],
+    "github": "#",
+    "screenshot": "",
+    "date": "2025-06-03"
+  },
+  {
+    "name": { "PL": "Planer domowych rzeczy", "EN": "Home Planner" },
+    "description": { "PL": "Aplikacja w trakcie realizacji – planowanie posiłków, finansów, kredytów, przypomnień.", "EN": "App in progress – plan meals, finances, credits, and reminders." },
+    "status": "completed",
+    "technologies": ["JavaFX", "PostgreSQL"],
+    "github": "https://github.com/bartosz-wawrzyk/Domator-App",
+    "screenshot": "",
+    "date": "2025-11-14"
+  }
+]

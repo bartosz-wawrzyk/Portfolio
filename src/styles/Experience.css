@@ -1,21 +1,33 @@
+.experience-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-content h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .experiences-list {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .experience-item {
   background: rgba(255, 255, 255, 0.1);
-  padding: 2rem;
+  padding: 1.2rem 1.5rem;
   border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   text-align: left;
-  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .experience-header h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.4rem;
+  margin: 0 0 0.4rem 0;
+  font-size: 1.2rem;
   color: #fff;
 }
 
@@ -24,7 +36,7 @@
   justify-content: space-between;
   color: #888;
   font-style: italic;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
@@ -32,22 +44,51 @@
 .company-period .company {
   color: #4CAF50;
   font-weight: 600;
+  font-size: 0.95rem;
 }
 
 .responsibilities h4 {
-  margin: 1rem 0 0.5rem 0;
+  margin: 0.8rem 0 0.4rem 0;
   color: #4CAF50;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .responsibilities-list {
-  padding-left: 2rem;
+  padding-left: 1.8rem;
   margin: 0;
 }
 
 .responsibilities-list li {
-  margin-bottom: 0.5rem;
-  line-height: 1.5;
-  text-align: left;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
   color: #ccc;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1024px) {
+  .experience-item {
+    padding: 1rem 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .experience-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .company-period .company {
+    font-size: 0.9rem;
+  }
+
+  .responsibilities h4 {
+    font-size: 0.95rem;
+  }
+
+  .responsibilities-list li {
+    font-size: 0.85rem;
+  }
 }

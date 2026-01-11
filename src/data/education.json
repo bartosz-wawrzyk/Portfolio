@@ -1,0 +1,42 @@
+{
+  "EN": [
+    {
+      "school": "CRACOW UNIVERSITY OF TECHNOLOGY",
+      "degree": "Master's degree",
+      "period": "2023 - 2025",
+      "field": "Computer Science - Data Science"
+    },
+    {
+      "school": "KIELCE UNIVERSITY OF TECHNOLOGY",
+      "degree": "Engineer",
+      "period": "2019 - 2023",
+      "field": "Computer Science - Information Systems"
+    },
+    {
+      "school": "TECHNICAL AND IT SCHOOL COMPLEX IN BUSKO-ZDRÓJ",
+      "degree": "IT Technician",
+      "period": "2015 - 2019",
+      "field": "IT Technician - E12, E13, E14"
+    }
+  ],
+  "PL": [
+    {
+      "school": "POLITECHNIKA KRAKOWSKA",
+      "degree": "Studia magisterskie (Mgr)",
+      "period": "2023 - 2025",
+      "field": "Informatyka - Data Science"
+    },
+    {
+      "school": "POLITECHNIKA ŚWIĘTOKRZYSKA",
+      "degree": "Studia inżynierskie (Inż)",
+      "period": "2019 - 2023",
+      "field": "Informatyka - Systemy informacyjne"
+    },
+    {
+      "school": "ZESPÓŁ SZKÓŁ TECHNICZNO-INFORMATYCZNYCH W BUSKU-ZDROJU",
+      "degree": "Technik Informatyk",
+      "period": "2015 - 2019",
+      "field": "Informatyka - E12, E13, E14"
+    }
+  ]
+}

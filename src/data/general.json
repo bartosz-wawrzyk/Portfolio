@@ -1,0 +1,34 @@
+{
+  "EN": {
+    "title": "Bartosz Wawrzyk",
+    "position": "Software Engineer",
+    "description": "I am a software engineer with experience working on production payroll and HR systems. I design and optimize SQL reports (PostgreSQL, MS SQL), working with real-world data and complex business logic. I develop system functionality in an environment based on Pascal (interpreter with C++ integrations), improving performance and data correctness. I focus on backend, fullstack, and data roles, which I further develop through personal projects.",
+    "contact": {
+      "title": "Contact",
+      "description": "Feel free to contact me! I'm open to new challenges and collaboration opportunities in IT and system implementations.",
+      "email": "bartoszwawrzyk888@gmail.com",
+      "linkedin": "LinkedIn: Bartosz Wawrzyk",
+      "github": "GitHub: bartosz-wawrzyk",
+      "links": {
+        "github": "https://github.com/bartosz-wawrzyk",
+        "linkedin": "https://www.linkedin.com/in/bartosz-wawrzyk-92498a260/"
+      }
+    }
+  },
+  "PL": {
+    "title": "Bartosz Wawrzyk",
+    "position": "Inżynier oprogramowania",
+    "description": "Jestem inżynierem oprogramowania z doświadczeniem w pracy na produkcyjnych systemach kadrowo-płacowych. Tworzę i optymalizuję raporty w SQL (PostgreSQL, MS SQL), pracując na rzeczywistych danych i złożonej logice biznesowej. Rozwijam funkcjonalności w środowisku opartym na Pascalu (interpreter + integracje C++), poprawiając wydajność i poprawność danych. Skupiam się na backendzie, fullstacku i pracy z danymi, co rozwijam poprzez projekty własne.",
+    "contact": {
+      "title": "Kontakt",
+      "description": "Zapraszam do kontaktu! Jestem otwarty na nowe wyzwania i możliwości współpracy w obszarze IT i wdrożeń systemowych.",
+      "email": "bartoszwawrzyk888@gmail.com",
+      "linkedin": "LinkedIn: Bartosz Wawrzyk",
+      "github": "GitHub: bartosz-wawrzyk",
+      "links": {
+        "github": "https://github.com/bartosz-wawrzyk",
+        "linkedin": "https://www.linkedin.com/in/bartosz-wawrzyk-92498a260/"
+      }
+    }
+  }
+}
