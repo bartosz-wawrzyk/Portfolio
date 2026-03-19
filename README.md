@@ -1,48 +1,24 @@
-# [B.Wawrzyk] | Software Engineer Portfolio
+# 👨‍💻 Bartosz Wawrzyk | Software Engineer Portfolio
 
-Personal portfolio website built with **React** and **Vite**, showcasing my journey from maintaining mission-critical legacy systems to building modern Fullstack applications.
+[![Portfolio Live](https://img.shields.io/badge/Live_Website-View_Now-success?style=for-the-badge)](https://bartosz-wawrzyk.github.io/Portfolio/)
+[![React](https://img.shields.io/badge/React-Vite-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 
-🔗 **Live Version:** [bartosz-wawrzyk.github.io/Portfolio/](https://bartosz-wawrzyk.github.io/Portfolio/)
+A high-performance Single Page Application (SPA) serving as my interactive resume and project showcase. It highlights my transition from maintaining mission-critical enterprise legacy systems to architecting modern, scalable Fullstack applications.
 
----
+## 🎯 Value Proposition
+I bridge the gap between **data integrity** (honed through enterprise SQL/legacy maintenance) and **modern delivery** (Python, FastAPI, React). I build software that not only looks good but runs predictably in production environments.
 
-## 🧭 Portfolio Structure
-The website is a high-performance **Single Page Application (SPA)** organized into the following sections:
+## 🛠 Technical Arsenal
+* **Frontend:** React.js, Vite, Styled Components
+* **Backend:** Python (FastAPI), REST APIs architecture
+* **Data & Infrastructure:** PostgreSQL, MS SQL Server, Docker, Git, CI/CD
+* **Legacy/Deep Tech:** Pascal, C++, Advanced Data Analysis (Pandas, Jupyter)
 
-- **Hero:** Quick technical value proposition
-- **Projects:** Modern Fullstack implementations with source code links
-- **Experience:** Professional track record and practical skills
-- **Skills:** Categorized breakdown of my technical arsenal
-- **About Me:** Professional narrative and education
-- **Contact:** Email and social links
-
----
-
-## ⚙️ Tech Stack & Tooling
-- **Frontend:** React.js, Vite, Styled Components
-- **Backend:** Python (FastAPI, Django), REST APIs
-- **Database:** PostgreSQL, MS SQL Server
-- **Legacy:** Pascal, C++
-- **DevOps / Tools:** Git, GitHub Actions (CI/CD), Docker
-
----
-
-## 🚀 Local Development
-To run this project locally:
-
-1. Clone the repository:
+## 🚀 Local Deployment
 ```bash
-git clone https://github.com/bartosz-wawrzyk/Portfolio.git
-```
-
-2. Install dependencies:
-```bash
+git clone [https://github.com/bartosz-wawrzyk/Portfolio.git](https://github.com/bartosz-wawrzyk/Portfolio.git)
+cd Portfolio
 npm install
-```
-
-3. Start the development server:
-```bash
 npm run dev
 ```
-
-4. Open http://localhost:5173 in your browser
+Open http://localhost:5173 in your browser

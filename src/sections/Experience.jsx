@@ -14,17 +14,6 @@ const experienceData = [
       "Providing advanced L3 technical support and problem resolution",
     ],
   },
-  {
-    role: "Student Internship",
-    company: "Intester Sp. z o.o.",
-    period: "09.2022",
-    responsibilities: [
-      "Analyzed and interpreted technical drawings to support project planning",
-      "Managed documentation flow to ensure compliance and traceability",
-      "Collaborated with engineering team on task execution and process improvements",
-      "Utilized AutoCAD for drafting and technical visualization",
-    ],
-  },
 ];
 
 const Experience = () => {
@@ -79,7 +68,7 @@ const Timeline = styled.div`
   &::before {
     content: '';
     position: absolute;
-    left: 20px;
+    left: 10px;
     top: 0;
     width: 2px;
     height: 100%;
@@ -89,19 +78,25 @@ const Timeline = styled.div`
 
 const TimelineItem = styled.div`
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  gap: 0.5rem;
   position: relative;
   padding-left: 2rem;
 
   &::before {
     content: '';
     position: absolute;
-    left: 12px;
+    left: 2px;
     top: 0.5rem;
     width: 16px;
     height: 16px;
     background-color: ${({ theme }) => theme.colors.accent};
     border-radius: 50%;
+  }
+
+  @media (min-width: 769px) {
+    flex-direction: row;
+    gap: 2rem;
   }
 `;
 

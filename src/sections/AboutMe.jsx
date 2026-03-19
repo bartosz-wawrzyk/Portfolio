@@ -18,9 +18,8 @@ const AboutMe = () => {
         </Paragraph>
 
         <Paragraph>
-          Currently, my primary focus is the modern fullstack ecosystem: Python (FastAPI, Django) and React with TypeScript. 
-          I leverage these tools to build applications that are not only fast and responsive but also built on a solid, scalable backend foundation. 
-          My approach combines the analytical mindset of a Data Science graduate with the pragmatism of an engineer who knows what it takes to keep a system running in a production environment.
+          I architect modern applications using the Python (FastAPI, Django) and React ecosystem, combining the analytical rigor of Data Science with production-first engineering pragmatism. 
+          I leverage these tools to build applications that are not only fast and responsive but also built on a solid, scalable backend foundation.																																										 
         </Paragraph>
 
         <EducationSection>

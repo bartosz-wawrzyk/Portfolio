@@ -6,7 +6,7 @@ const projectsData = [
     description:
       "A household management application. It enables task organization, user management, and data access through a modern React frontend and FastAPI backend.",
     challenge:
-      "Designed fullstack architecture with React frontend and FastAPI backend, containerized with Docker.",
+      "Implementing stateful cross-module financial calculations and ensuring strict data ownership via JWT roles and Layered Architecture.",
     stack: ["Python", "FastAPI", "React", "PostgreSQL", "Docker"],
     github: "https://github.com/bartosz-wawrzyk/Domator",
   },
@@ -15,7 +15,7 @@ const projectsData = [
     description:
       "Analysis and comparison of object detection algorithms: YOLO, SSD, R-CNN. Evaluation of mAP accuracy, processing time, and efficiency in different conditions.",
     challenge:
-      "Performed detailed performance analysis and comparison of object detection algorithms under varying conditions.",
+      "Performed detailed performance analysis and comparison of object detection algorithms under varying conditions to determine optimal deployment strategies.",
     stack: ["Python", "Jupyter Notebook", "Pandas", "Matplotlib"],
   },
 ];

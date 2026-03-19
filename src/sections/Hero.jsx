@@ -7,9 +7,7 @@ const Hero = () => {
       <Content>
         <Headline>Software Engineer | SQL, Python & React</Headline>
         <SubHeadline>
-          On a daily basis, I optimize production systems powered by SQL and legacy technologies. 
-          After hours, I build modern Fullstack applications, including production-ready projects 
-          like <strong>Domator</strong>, leveraging Python, FastAPI, and React.
+          I leverage my robust background in maintaining and optimizing enterprise SQL legacy systems to architect modern, scalable Fullstack applications. My production-ready projects, like <strong>Domator</strong>, are built with Python, FastAPI, and React.												   
         </SubHeadline>
         <CTAContainer>
           <CTAButton onClick={() => scrollToSection("projects")}>
@@ -71,12 +69,20 @@ const Headline = styled.h1`
   margin-bottom: 1rem;
   font-family: ${({ theme }) => theme.fonts.main};
   color: ${({ theme }) => theme.colors.textPrimary};
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+  }
 `;
 
 const SubHeadline = styled.p`
   font-size: 1.1rem;
   margin-bottom: 2rem;
   color: ${({ theme }) => theme.colors.textSecondary};
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 const CTAContainer = styled.div`
